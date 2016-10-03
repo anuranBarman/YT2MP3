@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252525">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YT2MP3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="70dp"
+            android:id="@+id/title_text"
+            android:textSize="33dp"
+            android:textColor="#70ff28"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/holder_bg"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title :"
+            android:textAllCaps="true"
+            android:id="@+id/video_title_header"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/holder_stroke"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title of the Video"
+            android:id="@+id/video_title"
+            android:textSize="16dp"
+            android:textColor="#083e10"
+            android:ellipsize="marquee"
+            android:maxLines="3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="15dp"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Length : "
+                android:textStyle="bold"
+                android:id="@+id/video_length_header"
+                android:textSize="25dp"
+                android:layout_marginTop="130dp"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:background="@drawable/length_holder_stroke"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="00"
+                android:padding="10dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="130dp"
+                android:id="@+id/video_length"
+                android:textColor="#083e10"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memory Available:"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#70ff28"
+            android:id="@+id/memAva"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Memory:"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:id="@+id/memTota"
+            android:textColor="#70ff28"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/download_button"
+        android:text="Download MP3"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

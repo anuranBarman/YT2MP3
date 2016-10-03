@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252525">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Youtube2Mp3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="36dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/app_name_text"
+        android:textColor="#70ff28" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Downloading Mp3 made easy."
+        android:textColor="#70ff28"
+        android:textStyle="italic"
+        android:id="@+id/slogan_text"
+        android:layout_marginLeft="90dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by Anuran Barman"
+        android:layout_marginTop="250dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#70ff28"
+        android:id="@+id/myName"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

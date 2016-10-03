@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.anuranbarman.yt2mp3.MainActivity"
+    android:background="#252525">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="60dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YT2MP3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="130dp"
+            android:id="@+id/title_text"
+            android:textSize="33dp"
+            android:textColor="#70ff28"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/length_holder_stroke"
+        android:id="@+id/link_editText"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:hint="Paste your Youtube Video link here ......"
+        />
+    <Button
+        android:id="@+id/convert_button"
+        android:text="Convert to MP3"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        />
+</LinearLayout>
